@@ -1,0 +1,355 @@
+body *{
+    box-sizing: border-box;
+        font-family:Lato;
+        margin: 0;
+        padding: 0;
+}
+ul li { list-style-type: none;
+display: inline-block;
+padding-top: 9px;
+
+}
+.navbar-brand{
+   padding: 0px;
+   padding-top: 10px;
+   margin: 0px;
+    color:#51b9d7;
+    font-family: sans-serif;
+}
+.navbar-brand:hover,.navbar-brand:focus{
+    color: #fff;
+
+}
+.navbar{
+    margin-bottom: 10px;
+}
+
+.main_menu ul li a{ color:#51b9d7;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+text-transform: uppercase;
+list-style-type: none;}
+
+.main_menu ul li a:hover{
+    color: #fff;
+   
+}
+ .btn_1 {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #174660;
+}
+.btn_1:hover{
+    background-color: transparent;
+    border: 1.2px solid #40c267;
+    color: #fff;
+}
+#btn-diff{
+    background-color: transparent;
+    color: #fff;
+    border: 1.2px solid #fff;
+}
+
+
+.menu_fixed{
+    position: fixed;
+    z-index: 1041!important;
+    width: 100%;
+    background-color: rgba(13,16,29,.8);
+    top: 0;
+}
+.dropdown ul li a{
+    color: black;
+    font-size: 14px;
+}
+.nav li a:hover,.nav li a:focus{
+    color: #51b9d7;
+    background:none;
+}
+.icon-bar{
+    background-color: #51b9d7;
+    background-color: none;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+    
+}
+@media only screen and (max-width:425px){
+
+    .nav{
+        background-color: transparent;
+    }
+    .main_menu ul li a{
+        padding: 0px;
+        color: #fff;
+    }
+    .main_menu .btn_1{
+        margin-left: 0px;
+    }
+.navbar-header .icon-bar:hover,.navbar-header .icon-bar:focus{
+color: #51b9d7;
+    }
+    #myBtn{
+        display: none;
+    }
+
+}
+.banner{
+    background: url(img/IMG_8867.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 300px;
+    padding-bottom: 400px;
+    
+}
+
+.banner-text{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 0px;
+    line-height: 1em;
+    color: #fff;
+    font-size: 40px;
+}
+
+.banner-text span{
+font-family: sans-serif;
+text-transform:initial;
+font-size: 25px;
+font-weight: bold;
+}
+.info span{
+    font-weight: bold;
+    
+}
+.social-media a{
+    padding: 15px;
+    color: #51b9d7;
+}
+.info .social-media{
+    padding: 0px 0px;
+padding-bottom:10px;
+}
+.social-media a i:hover{
+    transition: 1s ease-in;
+transform: rotate(360deg);
+color: #51b9d7;
+}
+.info {
+    border-top: 1px solid #51b9d7;
+    border-bottom: none;
+    z-index: 1;
+    margin-top: -70px;
+    border-radius: 20px 0px;
+    overflow: hidden;
+    border: 2px solid #b8baba;
+ border-top: none;    
+}
+.info h1{
+    
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 16px;
+    padding-top: 15px;
+    background-color: #51b9d7;
+    opacity: 85%;
+    color:#fff;
+}
+.info h2 span{
+    color:#51b9d7;
+}
+.dropdown-menu{
+    top: 135%;
+}
+.para{
+    padding: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+#clock{
+    font-size: 50px;
+    color: rebeccapurple;
+    text-align: center;
+    border-radius: 20px;
+    border: linear-gradient(32,442,45,35);
+}
+.course div{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 3px solid rgb(139, 201, 219);
+   margin: 15px;
+    border-radius: 20px;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+}
+.course div span
+{
+    position: relative;
+    bottom: 0px;
+    top: 260px;
+    color:#51b9d7;
+}
+.course div span:hover{
+    font-size: 18px;
+    transition: 0.25s ease-in-out;
+    color: #51b9d7;
+}
+.course .box1{ 
+    background-image: url(img/pexels-miguel-á-padriñán-1591060.jpg);   
+     
+}
+.course .box2{
+    background-image: url(img/pexels-andrew-neel-2312369.jpg);
+}
+.course .box3{
+    background-image: url(img/pexels-hitarth-jadhav-220357.jpg);
+}
+.course .box4{
+    background-image: url(img/pexels-fauxels-3184455.jpg);
+}
+
+.txtCenter{
+text-align: center;
+
+}
+.contact{
+    padding: 30px 0px;
+}
+.btn2{
+color: #fff;
+background-color: #51b9d7;
+border-radius: 10px;
+font-size: 18px;
+padding: 5px;
+}
+.btn2:hover{
+    color: #fff;
+    background-color: #b2dae6;
+}
+footer{
+    background: #6fbd8d;
+    opacity: 73%;
+    padding: 10px;
+    animation: changecolor 5s ease-in infinite;
+}
+@keyframes changecolor{
+    from{
+        background-color:#8d7b8f ;
+    }
+    to{
+        background-color: rgb(67, 68, 71);
+    }
+}
+footer a , footer a li{
+    color: #fff;
+}
+.smicon a{
+    padding-right: 15px;
+}
+ footer .smicon a i:hover{
+transition: 1s ease-in;
+transform: rotate(360deg);
+color: #51b9d7;
+}
+@media only screen and (max-width: 1200px) and (min-width: 768px){
+    .navbar-brand h2{
+        padding-top: 10px;
+    }
+    .banner {
+        height: 750px;    
+    }
+   
+    }
+
+    @media only screen and (width:768px){
+        .info .col-sm-4{
+            width: 50%;
+            font-size: 20px;
+            padding: 0px;
+        }
+        .aboutsec .col-sm-8{
+            width:100%;
+        }
+        .aboutsec .info .col-sm-3{
+            width: 40%;
+    padding-top: 80px;
+    padding-left: 15px;
+        }
+        footer .col-md-8{
+            width: 70%;
+
+        }
+        /* @media (min-width: 768px) */
+.col-sm-offset-2 {
+    margin-left: 30.666667%;
+}
+    }
+
+
+
+@media only screen and (max-width:320px) and (min-width:0px){
+.banner{
+    margin-right: 0px;
+    padding-right: 0px;
+    height: 10px;
+    padding-bottom: 300px;
+   
+}
+.banner #clock{
+    font-size: 30px;
+}
+.banner-text {
+    margin-top: -90px;
+    color: #51b9d7;
+}
+.banner-text span{
+    font-size: 16px;
+}
+.banner-text p{
+    font-size: 22px;
+}
+.para{
+    margin-top: 30px;
+    padding: 5px;
+}
+footer{
+    padding-right: 0px;
+}
+footer .smicon{
+    margin-right: 40px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+#myBtn{
+    display: none;
+}
+}    
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color:#51b9d7;
+    color: white;
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 30px;
+    font-size: 10px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #fff; 
+    border: 1px solid #51b9d7;
+    color: #51b9d7;
+  }
